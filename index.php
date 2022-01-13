@@ -100,7 +100,7 @@ echo "<br><br>";
         <?php
         $year = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020];
         for($i = 0; $i < count($year); $i++){
-            echo "<option>$year[$i] </option>";
+            echo "<option>$year[$i]</option>";
         }
         ?>
     </select>
